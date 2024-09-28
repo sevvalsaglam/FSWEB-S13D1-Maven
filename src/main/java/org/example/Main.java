@@ -46,7 +46,7 @@ public class Main {
     public static boolean isCatPlaying(boolean isSummer, int temp) {
         int lowestTemp= 25;
         int highestTemp= isSummer ? 45 : 35;
-        return temp > lowestTemp && temp < highestTemp;
+        return temp > lowestTemp && temp <= highestTemp;
     }
     public static double area(double width, double height) {
         if(width<0 || height<0){
